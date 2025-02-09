@@ -6,7 +6,7 @@ pipeline{
                 steps{
                     echo "my name is kira"
                 }
-            
+            }
             stage('how old'){
                 steps{
                     echo "I am 23 years old"
