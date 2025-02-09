@@ -5,11 +5,13 @@ pipeline{
             stage('whoami'){
                 steps{
                     echo "my name is kira"
+                    touch file.txt
                 }
             }
             stage('how old'){
                 steps{
                     echo "I am 23 years old"
+                    ls 
                 }
             }
 
