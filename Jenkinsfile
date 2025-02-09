@@ -19,7 +19,7 @@ pipeline{
 
             stage('what i want'){
                 steps{
-                    echo "Alll i want is to be so rich that i can go where i want"
+                    echo "All i want is to be so rich that i can go where i want"
                 }
             }
         }
