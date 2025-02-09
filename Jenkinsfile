@@ -1,5 +1,9 @@
 pipeline{
     agent any
+
+    triggers{
+        pollSCM('* * * * *')
+    }
         stages{
 
             stage('whoami'){
@@ -11,7 +15,6 @@ pipeline{
             stage('how old'){
                 steps{
                     echo "I am 23 years old"
-                    ls 
                 }
             }
 
